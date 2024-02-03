@@ -1,61 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
+        <link rel="shortcut icon" href="./img/COLBOX.png" type="image/x-icon">
+        <!--link de bt-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!--css-->
     <link rel="stylesheet" href="./css/style.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sendgo</title>
     <link rel ="icon" href="./img/COLBOX.png">
-</head>
-<section>
-    <h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolorum laudantium maiores facilis animi praesentium voluptatum totam asperiores fugit quidem libero, aliquam, quo nulla natus. Harum ea deleniti odio reprehenderit?</p>
-    </h3>
-</section>
-
+  </head>
 <body>
-    <header>
-        <img class="pixeles"  src="./img/COLBOX.png" alt="logosendgo">
-        <nav>
-            <ul>
-                <li><a href="./home.html">home</a></li>
-                <li><a href="./paginas/mis_envios.html">mis envìos</a></li>
-                <li><a href="./paginas/hacer_un_envio.html">hacer un envìo</a></li>
-                <li><a href="./paginas/mi_cuenta.html">mi cuenta</a></li>
-                <li><a href="./paginas/faq.html">acerca de nosotros</a></li>
-            </ul>
-        </nav>
-    </header>
+
+    <header class="container">
+        <div class="row">
+
+          <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img class="col-sm-2 col-md-1" src="./img/COLBOX.png" alt="logosendgo" width="100px">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./paginas/hacer_un_envio.html">Hacer un envìo</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./paginas/mis_envios.html">Mis envios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./paginas/faq.html">
+                        <img src="./img/Diseño sin título.png" alt="faq" width="20px">
+                      </a>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Mi cuenta 
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Iniciar seciòn</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Registrarme</a></li>
+                          
+                        </ul>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </header>
+
     <main>
-        <h1 id="seguro">100% seguro y con seguimiento incluido, abarata tus costos de paqueteria liviana de hasta 70 x 70 cm</h1>
-        <link rel="shortcut icon" href="./img/COLBOX.png" type="image/x-icon">
-        <button id="encontratuenvio">
-            encontra tu envio 
-        </button>
-        <img class="tamaño" src="./img/pexels-liza-summer-6347564.jpg" alt="paqueteria">
-        <h2>retira tu envio en la terminal seleccionada</h2>
-        <button>busca los puntos de envio y entrega</button>
-        <p>En el mapa selecciona el lugar de salida y deestino de tu paqueteria liviana, busca el costo en nuestra pagina de precios y corrobora los tranasportes</p>
+
+        <div class="contenedor">
+
+            <div class="hijo-uno">
+              <img class="paqueteria" src="./img/pexels-liza-summer-6347564.jpg" alt="paqueteria">
+            </div>
+              <div class="hijo-dos">
+                <h1  >100% seguro y con seguimiento incluido, abarata tus costos de paqueteria liviana de hasta 70 x 70 cm</h1>
+              </div>
+
+              <div class="hijo-tres">
+                <button class="boton1">
+                  Encontra tu envio 
+                </button>
+              </div>
+            </div>
+            
+            <div>
+              <h2 class="terminal">retira tu envio en la terminal seleccionada</h2>
+            </div>
+            <div> 
+              <p class="mapa">En el mapa selecciona el lugar de salida y deestino de tu paqueteria liviana, busca el costo en nuestra pagina de precios y corrobora los tranasportes</p>
+            </div>
+    <div class="contenedor1">
+      <div class="hijo-seis"> 
+        <button class="boton2">busca los puntos de envio y entrega</button>
+      </div>
+      <div class="hijo-siete">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque totam numquam quasi libero ipsum iusto quibusdam debitis rerum aliquam. Maxime expedita, assumenda culpa aperiam laboriosam quam consectetur eveniet earum vel!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut deleniti totam odio iste, ipsum at rem cupiditate? Nisi error quis, nihil molestiae optio tempora et eius, sint asperiores iusto aspernatur.
+        
+      </p>
+      </div>
+      <div class="hijo-ocho">
         <iframe id="mapariotercero" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3377.371896045979!2d-64.12152192596803!3d-32.16724477392439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cd6f341ab4c88b%3A0xcec0bbdcb0866943!2sTerminal%20%C3%93mnibus%20R%C3%ADo%20Tercero!5e0!3m2!1ses-419!2sar!4v1703169926902!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
     </main>
-        <footer>
-            <img class="imgfooter" src="./img/COLBOX.png" alt="logosendgo">
-            <div>
-                <ul id="lista_1">
-                    <li>calcula el costo de tu envio</li>
-                    <li>codgio de seguimiento</li>
-                    <li>preguntas frecuentes</li>
-                    <li>como hacer un envio</li>
-                </ul>
+    
+        <footer class="bg-light text-dark pt-5 pb-4">
+          <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold ">SENDGO PAQUETERIA LIVIANA AL INSTANTE</h5>
+                <hr class="mb-4">
+                <p>Somos un equipo dedicado a la paqueteria liviana y brindar seguridad a la hora de hacer o recibir un pedido</p>
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+
+                <h5 class="text-uppercase mb-4 font-weight-bold ">¿Problemas con tu envio?</h5>
+                <hr class="mb-4">
+                
+                <p>
+                  <a href="#" class="text-dark">¿como hacer un envio?</a>
+                </p>
+                
+                <p>
+                  <a href="#" class="text-dark"> Recibir un envio</a>
+                </p>
+                
+                <p>
+                  <a href="#" class="text-dark">Historial de envios</a>
+                </p>
+                
+                <p>
+                  <a href="#" class="text-dark">Ayuda</a>
+                </p>
+              </div>
+
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+
+                <h5 class="text-uppercase mb-4 font-weight-bold ">¿Quieres trabajar con nosotros?</h5>
+                <hr class="mb-4">
+                
+                <p>
+                  <a href="#" class="text-dark" >Entregar encomiendas</a>
+                </p>
+                
+                <p>
+                  <a href="#" class="text-dark">¿Vendes por mayor?</a>
+                </p>
+                
+                <p>
+                  <a href="#" class="text-dark">Administrar pedidos</a>
+                </p>
+                
+                <p>
+                  <a href="#" class="text-dark" >Contactanos</a>
+                </p>
+              </div>
+
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+
+                <h5 class="text-uppercase mb-4 font-weight-bold ">Contacto soporte 24/7</h5>
+                <hr class="mb-4">
+                
+                <p>
+                  <li class="fas fa-home me-3"></li> Terminal Rìo Tercero
+                </p>
+
+                <p>
+                  <li class="fas fa-envelope me-3"></li> Admin@sendgo.com
+                </p>
+
+                <p>
+                  <li class="fas fa-phone me-3"></li> 3571-546827
+                </p>
+
+                
+              </div>
+
+              <hr class="mb-4">
+
+              <div class="text-center mb-2"> 
+
+                <p>
+                  Todos los derechos reservados 
+                  <a href="#">
+                    <strong >Sendgo 2024</strong>
+
+                  </a>
+                </p>
+
+                <div class="text-center">
+                  <ul class="list-unstyled list-inline">
+
+                    <li class="list-inline-item">
+                      <a href="#" class="text-dark"> <i class="fab fa-facebook"> </i></a>
+                    </li>
+
+                    <li class="list-inline-item">
+                      <a href="#" class="text-dark"> <i class="fab fa-linkedin"> </i></a>
+                    </li>
+
+                    <li class="list-inline-item">
+                      <a href="#" class="text-dark"> <i class="fab fa-instagram"> </i></a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+
             </div>
-            <div>
-                <ul id="lista_2">
-                    <li>instagram</li>
-                    <li>facebook</li>
-                    <li>google</li>
-                </ul>
-            </div>
-                <h3>Sendgo -todos los derechos reservados 2023-</h3>
-    </footer>
+          </div>
+          </div>
+
+        </footer>
+    <!--script de bt-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
+
