@@ -1,0 +1,18 @@
+ 
+.navbar-nav {
+    .nav-link {
+    color: black; 
+    transition: color 0.3s ease;
+    &:hover {
+        color:$color-principal;}
+        &.active{
+            color:$color-principal;
+        }
+    }
+}
+.dropdown-menu{
+    .dropdown-item.active{
+        color:$color-principal;
+    }
+    
+}

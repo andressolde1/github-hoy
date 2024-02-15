@@ -1,0 +1,231 @@
+/*comentario en sass*/
+.navbar-nav .nav-link {
+  color: black;
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  color: #FD7405;
+}
+.navbar-nav .nav-link.active {
+  color: #FD7405;
+}
+
+.dropdown-menu .dropdown-item.active {
+  color: #FD7405;
+}
+
+footer p {
+  color: #FD7405;
+}
+
+/*index*/
+main div.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: b;
+}
+main div.contenedor img {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+  filter: brightness(0.4);
+}
+main div.contenedor h1 {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  transform: translate(-50% -50%);
+  font-size: 100px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+main div.contenedor .boton1 {
+  margin-top: 10px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50% -50%);
+  font-size: x-large;
+  background-color: #FD7405;
+  color: white;
+  border-radius: 30px;
+  width: 300px;
+}
+main div.contenedor .boton1:hover {
+  transform: scale(1.1);
+}
+main div.contenedor0 {
+  text-align: center;
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+}
+main div.contenedor0 div {
+  text-justify: center;
+}
+main div.contenedor0 div img {
+  height: 150px;
+  text-align: center;
+}
+main div.contenedor0 div p {
+  width: 200px;
+}
+main div.contenedor1 iframe {
+  width: 100%;
+}
+main div.contenedor1 .h2index {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+}
+main div.contenedor1 .pindex {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  margin-top: 50px;
+}
+main div.contenedor1 .pindex1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+}
+main div.contenedor1 .boton2 {
+  background-color: #FD7405;
+  font-size: x-large;
+  margin-left: 35%;
+  border-radius: 30px;
+  color: white;
+  width: 440px;
+  margin-top: 50px;
+  border-color: #FD7405;
+}
+main div.contenedor1 .boton2:hover {
+  transform: scale(1.1);
+}
+main .whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+main .whatsapp-button:hover {
+  background-color: #ffffff;
+}
+main .whatsapp-button .whatsapp-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/*hacer un envio*/
+.mainhe h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.mainhe h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+.mainhe form {
+  text-align: center;
+  margin-top: 70px;
+}
+
+/*mis envios*/
+.mainme .divme {
+  text-align: center;
+}
+.mainme .divme .botonme1 {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #FD7405;
+  color: white;
+  border-radius: 30px;
+  width: 300px;
+  border-color: #FD7405;
+}
+.mainme .divme .botonme2 {
+  text-align: center;
+  background-color: #FD7405;
+  color: white;
+  border-radius: 30px;
+  width: 300px;
+  border-color: #FD7405;
+}
+.mainme .divme .h1me {
+  text-align: center;
+  margin-top: 50px;
+  margin: 100px;
+}
+.mainme .divme .pme {
+  margin-top: 50px;
+  margin: 100px;
+}
+.mainme .divme .pme strong .negritame {
+  font-weight: bold;
+}
+.mainme .divme .pme1 {
+  margin-top: 30px;
+  font-size: large;
+}
+
+/*mainhe*/
+.mainhe .divhe {
+  text-align: center;
+  margin-top: 50px;
+}
+.mainhe .divhe input {
+  margin: 10px;
+}
+.mainhe .divhe .enviar {
+  background-color: #FD7405;
+  color: white;
+  border-color: #FD7405;
+  width: 100px;
+  border-radius: 30px;
+}
+.mainhe .divhe .reset {
+  background-color: #FD7405;
+  color: white;
+  border-color: #FD7405;
+  width: 100px;
+  border-radius: 30px;
+}
+
+@media (min-width: 300px) and (max-width: 1024px) {
+  .contenedor {
+    text-align: center;
+  }
+  .contenedor0, .contenedor1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .contenedor0 div, .contenedor1 div {
+    margin-bottom: 20px;
+  }
+  .whatsapp-button {
+    text-align: center;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  footer .container .row {
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=styles.css.map */

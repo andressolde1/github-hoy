@@ -1,0 +1,20 @@
+@mixin boton-estilo{
+    
+        margin-top: 10px;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        transform: translate(-50% -50%);
+        font-size: x-large;
+        background-color: $color-principal;
+        color: white;
+        border-radius: 30px;
+        width: 300px;
+}
+
+@mixin boton-estilo-hover{
+        
+    
+        transform: scale(1.1);
+    
+}
