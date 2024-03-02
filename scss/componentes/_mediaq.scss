@@ -4,16 +4,34 @@
 
 
 
-@media (min-width: 500px) and (max-width: 1024px) {main{
+@media (min-width: 375px) and (max-width: 1024px) {
+
+
+    main{
     .contenedor {
         text-align: center;
+        position: relative;
+        
+          h1.h1index{
+            text-align: center;
+            font-size: 360px; 
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            position: static; 
+            transform: none; 
+            font-size: 50px;
+          }
+        }
       }
+      
       
       .contenedor0, .contenedor1 {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
+        
+
       }
     
       .contenedor0 div, .contenedor1 div {
@@ -34,7 +52,80 @@
       footer .container .row {
         margin-bottom: 20px;
       }
-}
+      .imgconte{
+        display: none;
+      }
 
-}
+      .imgcontenedor{
+        display: none;
+      }
+      
+      $conteregistrarme-width: 100%;
 
+
+.mainre{
+  display: block;
+      .conteregistrarme {
+        display: flex;
+        flex-direction: column;
+        max-width: $conteregistrarme-width;
+        margin: 0 auto;
+        padding: 20px;
+        
+        h1 {
+          text-align: center;
+        }
+      
+        div{
+        
+                
+                label {
+                  display: block;
+                  margin-bottom: 5px;
+                }
+                
+                input[type="text"],
+                input[type="email"],
+                input[type="password"] {
+                  width: 100%;
+                  padding: 8px;
+                  margin-bottom: 10px;
+                }
+              }
+            }
+          }
+      
+          ul {
+            list-style: none;
+            padding-left: 0;
+            
+            li {
+              margin-bottom: 5px;
+            }
+          }
+      
+          p {
+            margin-bottom: 10px;
+            
+            input[type="checkbox"] {
+              vertical-align: middle;
+              margin-right: 5px;
+            }
+          }
+      
+          div {
+            text-align: center;
+            
+            input[type="reset"],
+            input[type="submit"] {
+              padding: 10px 20px;
+              margin: 0 5px;
+            }
+          }
+      
+.nanogrion{
+  display: none;
+}        
+        
+        }
+    

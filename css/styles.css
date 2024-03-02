@@ -10,7 +10,7 @@
   color: #FD7405;
 }
 
-.dropdown-menu .dropdown-item.active {
+.dropdown-menu .dropdown-item .active {
   color: #FD7405;
 }
 
@@ -19,41 +19,45 @@ footer p {
 }
 
 /*index*/
-main div.contenedor {
-  display: flex;
-  flex-direction: column;
-  align-items: b;
-}
-main div.contenedor img {
-  width: 100%;
-  margin-bottom: 20px;
-  position: relative;
-  display: block;
-  filter: brightness(0.4);
-}
-main div.contenedor h1 {
-  text-align: center;
-  position: absolute;
-  top: 25%;
-  left: 20%;
-  transform: translate(-50% -50%);
-  font-size: 100px;
-  color: white;
-  font-family: "Roboto", sans-serif;
-}
-main div.contenedor .boton1 {
-  margin-top: 10px;
-  position: absolute;
-  top: 40%;
-  left: 40%;
+main button {
+  margin-top: 5%;
   transform: translate(-50% -50%);
   font-size: x-large;
   background-color: #FD7405;
   color: white;
   border-radius: 30px;
+  border-color: #FD7405;
+}
+main div.contenedor {
+  background-color: #F5BA53;
+  background-image: url(../../img/backgroundimg.png);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  align-content: center;
+  padding: 40px;
+}
+main div.contenedor .h1index {
+  text-align: center;
+  transform: translate(-50% -50%);
+  font-size: 100px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+main div.contenedor .botonindex {
+  margin-top: 5%;
+  transform: translate(-50% -50%);
+  font-size: x-large;
+  background-color: #FD7405;
+  color: white;
+  border-radius: 30px;
+  border-color: #FD7405;
   width: 300px;
 }
-main div.contenedor .boton1:hover {
+main div.contenedor .botonindex:hover {
   transform: scale(1.1);
 }
 main div.contenedor0 {
@@ -65,12 +69,19 @@ main div.contenedor0 {
 main div.contenedor0 div {
   text-justify: center;
 }
+main div.contenedor0 div img.seguridad {
+  height: 80px;
+}
 main div.contenedor0 div img {
-  height: 150px;
+  height: 90px;
   text-align: center;
+  margin-top: 50%;
 }
 main div.contenedor0 div p {
   width: 200px;
+}
+main div.contenedor1 {
+  text-align: center;
 }
 main div.contenedor1 iframe {
   width: 100%;
@@ -92,17 +103,18 @@ main div.contenedor1 .pindex1 {
   font-family: "Roboto", sans-serif;
   margin-top: 50px;
 }
-main div.contenedor1 .boton2 {
-  background-color: #FD7405;
+main div.contenedor1 .botonindex1 {
+  margin-top: 5%;
+  transform: translate(-50% -50%);
   font-size: x-large;
-  margin-left: 35%;
-  border-radius: 30px;
+  background-color: #FD7405;
   color: white;
-  width: 440px;
-  margin-top: 50px;
+  border-radius: 30px;
   border-color: #FD7405;
+  justify-content: center;
+  width: 450px;
 }
-main div.contenedor1 .boton2:hover {
+main div.contenedor1 .botonindex1:hover {
   transform: scale(1.1);
 }
 main .whatsapp-button {
@@ -162,21 +174,23 @@ main .whatsapp-button .whatsapp-icon {
   border-radius: 30px;
   width: 300px;
   border-color: #FD7405;
+  margin-top: -100px;
 }
 .mainme .divme .h1me {
   text-align: center;
   margin-top: 50px;
-  margin: 100px;
+  margin: 40px;
 }
 .mainme .divme .pme {
   margin-top: 50px;
-  margin: 100px;
+  margin: 40px;
 }
 .mainme .divme .pme strong .negritame {
   font-weight: bold;
 }
 .mainme .divme .pme1 {
-  margin-top: 30px;
+  margin-top: 35px;
+  margin: 10px;
   font-size: large;
 }
 
@@ -203,9 +217,101 @@ main .whatsapp-button .whatsapp-icon {
   border-radius: 30px;
 }
 
-@media (min-width: 300px) and (max-width: 1024px) {
-  .contenedor {
+/*mainfaq*/
+.mainfaq {
+  margin: 50px;
+}
+
+.mainre {
+  display: none;
+}
+.mainre .enviar {
+  margin-top: 5%;
+  transform: translate(-50% -50%);
+  font-size: x-large;
+  background-color: #FD7405;
+  color: white;
+  border-radius: 30px;
+  border-color: #FD7405;
+}
+.mainre .enviar:hover {
+  transform: scale(1.1);
+}
+.mainre .reset {
+  margin-top: 5%;
+  transform: translate(-50% -50%);
+  font-size: x-large;
+  background-color: #FD7405;
+  color: white;
+  border-radius: 30px;
+  border-color: #FD7405;
+}
+.mainre .reset:hover {
+  transform: scale(1.1);
+}
+
+.mainis {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.mainis .contenido1 {
+  text-align: center;
+  margin-top: 10%;
+  justify-content: center;
+}
+.mainis .contenido1 .botonis1 {
+  margin-top: -40px;
+}
+
+.nanogrion {
+  display: flex;
+}
+.nanogrion .conteregistrarme1 .legendhe1 {
+  text-align: center;
+}
+.nanogrion .conteregistrarme1 div {
+  align-self: center;
+  margin: 70px;
+}
+.nanogrion .conteregistrarme1 .reset {
+  margin-top: 5%;
+  transform: translate(-50% -50%);
+  font-size: x-large;
+  background-color: #FD7405;
+  color: white;
+  border-radius: 30px;
+  border-color: #FD7405;
+}
+.nanogrion .conteregistrarme1 .enviar {
+  margin-top: 5%;
+  transform: translate(-50% -50%);
+  font-size: x-large;
+  background-color: #FD7405;
+  color: white;
+  border-radius: 30px;
+  border-color: #FD7405;
+}
+.nanogrion .conteregistrarme1 .reset:hover {
+  transform: scale(1.1);
+}
+.nanogrion .conteregistrarme1 .enviar:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 375px) and (max-width: 1024px) {
+  main .contenedor {
     text-align: center;
+    position: relative;
+  }
+  main .contenedor h1.h1index {
+    text-align: center;
+    font-size: 360px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    position: static;
+    transform: none;
+    font-size: 50px;
   }
   .contenedor0, .contenedor1 {
     display: flex;
@@ -228,4 +334,62 @@ main .whatsapp-button .whatsapp-icon {
   footer .container .row {
     margin-bottom: 20px;
   }
+  .imgconte {
+    display: none;
+  }
+  .imgcontenedor {
+    display: none;
+  }
+  .mainre {
+    display: block;
+  }
+  .mainre .conteregistrarme {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .mainre .conteregistrarme h1 {
+    text-align: center;
+  }
+  .mainre .conteregistrarme div label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .mainre .conteregistrarme div input[type=text],
+  .mainre .conteregistrarme div input[type=email],
+  .mainre .conteregistrarme div input[type=password] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li {
+    margin-bottom: 5px;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+  p input[type=checkbox] {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  div {
+    text-align: center;
+  }
+  div input[type=reset],
+  div input[type=submit] {
+    padding: 10px 20px;
+    margin: 0 5px;
+  }
+  .nanogrion {
+    display: none;
+  }
+}
+a {
+  color: #FD7405;
 }/*# sourceMappingURL=styles.css.map */
